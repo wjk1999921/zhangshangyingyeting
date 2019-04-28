@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet"  href="css/index.css"/>
+	<link href="css/iconfont.css" rel="stylesheet"/>
+	<script src="js/mui.min.js"></script>
+	<!--<script type="text/javascript">
+		mui.init()
+	</script>-->
+</head>
+<body>
+<!-- 主界面菜单同时移动 -->
+<!-- 侧滑导航根容器 -->
+<div class="mui-off-canvas-wrap mui-draggable">
+    <!-- 主页面容器 -->
+    <div class="mui-inner-wrap">
+        <!-- 菜单容器 -->
+        <aside class="mui-off-canvas-left" id="offCanvasSide">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll touxiang">
+                    <!-- 菜单具体展示内容 -->
+                    <div class="cehua">
+		            	<!--登陆-->
+		            	<div class="denglu">
+		            		<img src="img/touxiang1.png" />
+		            		<span>登录</span>
+		            	</div>
+		            	<!--登陆结束-->
+		            	<!--管理-->
+		            	<div class="yingyong">
+		            		<div class="guanli">
+		            			<span class="iconfont icon-wenjian" id="icon-wenjian"></span>
+		            			<span>缴费号管理</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-shouji"></span>
+		            			<span>修改注册手机号</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-xiugaimima"></span>
+		            			<span>修改密码</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-banbengengxin"></span>
+		            			<span>应用分享</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-ganxingqukehu-dianhua"></span>
+		            			<span>客服电话</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-banbengengxin"></span>
+		            			<span>版本更新</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-guanyuwomen-"></span>
+		            			<span>关于我们</span>
+		            		</div>
+		            		<div class="guanli">
+		            			<span class="iconfont icon-shezhi"></span>
+		            			<span>设置</span>
+		            		</div>
+		            	</div>
+	            		<!--管理结束-->
+                    </div>
+	            	 <!-- 菜单具体展示内容 结束-->
+                </div>
+            </div>
+        </aside>
+        <!-- 主页面标题 -->
+        <header class="mui-bar mui-bar-nav header">
+            <a class="mui-icon mui-action-menu mui-icon mui-icon-list mui-pull-left aa" href="#offCanvasSide"></a>
+            <h1 class="mui-title Title">
+            	<img src="img/yyt.png" />
+            </h1>
+             <a class="mui-icon iconfont icon-xinxi  mui-pull-right  mui-action-menu" href="#"></a>
+        </header>
+        <nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon icon-wode iconfont"></span>
+		        <span class="mui-tab-label">我的</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon iconfont icon-fuwu"></span>
+		        <span class="mui-tab-label">服务</span>
+		    </a>		    
+		</nav> 
+        <!-- 主页面内容容器 -->
+        <div class="mui-content mui-scroll-wrapper" id="offCanvasContentScroll">
+            <div class="mui-scroll ">
+              	<div id="slider" class="mui-slider" >
+					  <div class="mui-slider-group mui-slider-loop">
+					    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播)http://127.0.0.1:5555/zhangshangyingyeting/html/indexson.html# -->
+					    <div class="mui-slider-item mui-slider-item-duplicate">
+					      <a href="#">
+					        <img src="img/lunbo1.jpg">
+					      </a>
+					    </div>
+					     <!--第一张--> 
+					    <div class="mui-slider-item">
+					      <a href="#">
+					        <img src="img/lunbo1.jpg">
+					      </a>
+					    </div>
+					    <!-- 第二张 -->
+					    <div class="mui-slider-item">
+					      <a href="#">
+					       <img src="img/lunbo2.jpg">
+					      </a>
+					    </div>
+					    <!-- 第三张 -->
+					    <div class="mui-slider-item">
+					      <a href="#">
+					        <img src="img/lunbo3.jpg">
+					      </a>
+					    </div>
+					    <!-- 第四张 -->
+					    <div class="mui-slider-item">
+					      <a href="#">
+					       <img src="img/lunbo4.jpg">
+					      </a>
+					    </div>
+					    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+					    <div class="mui-slider-item mui-slider-item-duplicate">
+					      <a href="#">
+					        <img src="img/lunbo1.jpg">
+					      </a>
+					    </div>
+					  </div>
+					  <div class="mui-slider-indicator">
+					    <div class="mui-indicator mui-active"></div>
+					    <div class="mui-indicator"></div>
+					    <div class="mui-indicator"></div>
+					    <div class="mui-indicator"></div>
+					  </div>
+				</div>
+				<!--轮播图结束-->
+				<!--图标-->
+				<div class="tubiao">
+					<a href="#">
+						<span><img src="img/yhxx.png" class="xinxi"></span>
+						<span>用户信息</span>
+					</a>
+					<a href="#">
+						<span><img src="img/zhxx.png" class="xinxi"></span>
+						<span>账户信息</span>
+					</a>
+					<a href="#">
+						<span><img src="img/ywxx.png" class="xinxi"></span>
+						<span>业务信息</span>
+					</a>
+					<a href="#">
+						<span><img src="img/ddxx.png" class="xinxi"></span>
+						<span>订单信息</span>
+					</a>
+				</div>
+				<!--图标结束-->
+				<!--业务订购-->
+				<div class="ywwu">
+					<!--顶部文字-->
+					<div class="yewu_top">业务订购</div>
+					<!--顶部图片-->
+					<div class="yewucontent">
+						<div class="wired">
+							<img src="img/yqjbb.png">
+							<img src="img/ffjm.png">
+						</div>
+						<div class="unsewn">
+							<img src="img/gqjmd.png">
+							<img src="img/wxszjm.png">
+						</div>
+					</div>
+				</div>
+				<!--业务订购结束-->
+				<!--互动套餐-->
+				<div class="taocan">
+					<a href="#">
+						<span><img src="img/hdtc.png" class="dibu"/></span>
+						<span>互动套餐</span>
+					</a>
+					<a href="#">
+						<span><img src="img/kd.png" class="dibu"/></span>
+						<span>宽带套餐</span>
+					</a>
+					<a href="#" id="teshu">
+						<span><img src="img/ytj.png" class="dibu"/></span>
+						<span>一体机套餐</span>
+					</a>
+				</div>
+				<!--互动套餐结束--> 
+                <!-- 主界面具体展示内容结束 -->   
+            </div>
+        </div>
+   	 <!--<div class="mui-off-canvas-backdrop"></div>-->
+    </div>
+</div>
+<script type="text/javascript">
+	mui('#offCanvasContentScroll').scroll();
+	var gallery = mui('.mui-slider');
+		gallery.slider({
+		interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+</script>
+</body>
+
+</html>

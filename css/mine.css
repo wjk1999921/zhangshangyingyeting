@@ -1,0 +1,97 @@
+ul{
+	list-style: none;
+}
+/*主页面标题*/ 
+.aa{
+	color: #fff;
+}
+.header{
+	background: #1093e9;
+}
+.Title>img{
+	/*margin-top: 5px;*/
+	width: 50%;
+}
+.icon-xinxi{
+	color: #fff;
+}
+/*选择用户*/
+.chose{
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 20px;
+	background: #1093e9;
+}
+/*图像*/
+.chose>img{
+	width: 23%;
+}
+/*文字*/
+.user{
+	width: 30%;
+	height: 30px;
+	line-height: 30px;
+	margin: 20px auto;
+	/*margin:  0;*/
+	background: #fff;
+}
+.user>a{
+	text-decoration: none;
+	font-weight: bold;
+}
+/*选择用户结束*/
+/*用户信息*/
+.yonghu{
+	display: flex;
+	margin: 10px 0;
+	background: #fff;
+}
+/*左边图标*/
+.xiaotubiao{
+	width: 20%;
+	padding-left: 2px;
+	text-align: center;
+	box-sizing: border-box;
+	/*background: pink;*/
+}
+.xiaotubiao>li{
+	padding: 5px 0;
+}
+.xiaotubiao>li>img{
+	width: 30%;
+}
+/*左边图标结束*/
+/*右边文字*/
+.word{
+	width: 80%;
+	padding-left: 0px;
+	/*background: yellow*/
+}
+.word>li{
+	display: flex;
+	justify-content: space-between;
+	padding: 7px 0;
+	border-bottom: 1px solid #ddd;
+	/*background: red;*/
+}
+.word>li:nth-last-child(1){	
+	border-bottom: none;
+}
+.word>li>span:nth-child(1){
+	font-size: 15px;
+}
+.word>li>span:nth-child(2){
+	padding-right: 20px;
+	color: #6D6D72;
+	/*font-weight: bold;*/
+}
+/*手机订单*/
+.dingdan{
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+	height: 15px;
+	color: #ddd;
+	/*background: yellow;*/
+}
+/*用户信息结束*/

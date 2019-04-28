@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="../css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet"  href="../css/mine.css"/>
+	<link href="../css/iconfont.css" rel="stylesheet"/>
+	<script src="../js/mui.min.js"></script>
+	<!--<script type="text/javascript">
+		mui.init()
+	</script>-->
+</head>
+<body>
+<!-- 主界面菜单同时移动 -->
+<!-- 侧滑导航根容器 -->
+<div class="mui-off-canvas-wrap mui-draggable">
+    <!-- 主页面容器 -->
+    <div class="mui-inner-wrap">        
+        <!-- 主页面标题 -->
+        <header class="mui-bar mui-bar-nav header">
+            <a class="mui-icon mui-action-menu mui-icon mui-icon-list mui-pull-left aa" href="#offCanvasSide"></a>
+            <h1 class="mui-title Title">
+            	<img src="../img/yyt.png" />
+            </h1>
+             <a class="mui-icon iconfont icon-xinxi  mui-pull-right  mui-action-menu" href="#"></a>
+        </header>
+       	<!--//底部-->
+        <nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon icon-wode iconfont"></span>
+		        <span class="mui-tab-label">我的</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon iconfont icon-fuwu"></span>
+		        <span class="mui-tab-label">服务</span>
+		    </a>		    
+		</nav> 
+        <!-- 主页面内容容器 -->
+        <div class="mui-content mui-scroll-wrapper" id="offCanvasContentScroll">
+            <div class="mui-scroll ">
+              	<!--选择用户-->
+				<div class="chose">
+					<img src="../img/landi.png" />
+					<div class="user">
+						<a href="#">选择用户</a>
+					</div>
+				</div>
+				<!--选择用户结束-->
+				<!--用户信息-->
+				<div class="yonghu">
+					<ul class="xiaotubiao">
+						<li><img src="../img/yh.png"></li>
+						<li><img src="../img/zh.png"></li>
+						<li><img src="../img/yw.png"></li>
+						<li><img src="../img/dd.png"></li>
+						<li><img src="../img/jf.png"></li>
+					</ul>
+					<ul class="word">
+						<li>
+							<span>用户信息</span>
+							<span class="">></span>
+						</li>
+						<li>
+							<span>账户信息</span>
+							<span class="">></span>
+						</li>
+						<li>
+							<span>业务信息</span>
+							<span class="">></span>
+						</li>
+						<li>
+							<span>订单信息</span>
+							<span class="dingdan">
+								<p>手机订单</p>
+								<span>></span>
+							</span>
+						</li>
+						<li>
+							<span>缴费历史</span>
+							<span class="dingdan">
+								<p>所有订单</p>
+								<span>></span>
+							</span>
+						</li>
+						
+					</ul>
+				</div>
+				<!--用户信息结束-->
+				<!--业务订购-->
+				<div class="yonghu">
+					<ul class="xiaotubiao">
+						<li><img src="../img/yw1.png"></li>
+						<li><img src="../img/cz.png"></li>
+					</ul>
+					<ul class="word">
+						<li>
+							<span>业务订购</span>
+							<span class="">></span>
+						</li>
+						<li>
+							<span>充值缴费</span>
+							<span class="">></span>
+						</li>
+					</ul>
+				</div>
+				<!--业务订购结束-->
+                <!-- 主界面具体展示内容结束 -->   
+            </div>
+        </div>
+   	 <!--<div class="mui-off-canvas-backdrop"></div>-->
+    </div>
+</div>
+<script type="text/javascript">
+	mui('#offCanvasContentScroll').scroll();
+	var gallery = mui('.mui-slider');
+		gallery.slider({
+		interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+	});
+</script>
+</body>
+
+</html>
