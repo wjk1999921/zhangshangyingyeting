@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="../css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet"  href="../css/service.css"/>
+	<link href="../css/iconfont.css" rel="stylesheet"/>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init()
+	</script>
+</head>
+<body>
+<!-- 主界面菜单同时移动 -->
+<!-- 侧滑导航根容器 -->
+<div class="mui-off-canvas-wrap mui-draggable" id="fuwu">
+    <!-- 主页面容器 -->
+    <div class="mui-inner-wrap">
+       <header class="mui-bar mui-bar-nav header">
+            <a class="mui-icon mui-action-menu mui-icon mui-icon-list mui-pull-left aa" href="#offCanvasSide"></a>
+            <h1 class="mui-title Title" style="color: #fff;">
+            	服务
+            </h1>
+             <a class="mui-icon iconfont icon-xinxi  mui-pull-right  mui-action-menu" href="#"></a>
+        </header>
+       	<!--//底部-->
+        <nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon icon-wode iconfont"></span>
+		        <span class="mui-tab-label">我的</span>
+		    </a>
+		    <a class="mui-tab-item">
+		        <span class="mui-icon iconfont icon-fuwu"></span>
+		        <span class="mui-tab-label">服务</span>
+		    </a>		    
+		</nav> 
+        <!-- 主页面内容容器 -->
+        <div class="mui-content mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <!-- 主界面具体展示内容 -->
+                <div class="hot">
+                	<a href="#">
+                		<div><img src="../img/gddmt.png"></div>
+                		<div class="hotword">
+                			<span>光电多媒体WLAN热点</span>
+                			<span>></span>
+                		</div>
+                	</a>
+                	<a href="#">
+                		<div><img src="../img/fjyyt.png"></div>
+                		<div class="hotword">
+                			<span>附近营业厅</span>
+                			<span>></span>
+                		</div>
+                	</a>
+				</div>
+				<!--帮助中心-->
+				<div class="hot">
+                	<a href="#">
+                		<div><img src="../img/bzzx.png"></div>
+                		<div class="hotword">
+                			<span>帮助中心</span>
+                			<span>></span>
+                		</div>
+                	</a>
+                	<a href="#">
+                		<div><img src="../img/yjfk.png"></div>
+                		<div class="hotword">
+                			<span>意见反馈</span>
+                			<span>></span>
+                		</div>
+                	</a>
+				</div>
+				<!--服务结束-->
+            </div>
+        </div>
+         <!-- 主页面内容容器 结束-->
+    </div>
+</div>
+</body>
+
+</html>

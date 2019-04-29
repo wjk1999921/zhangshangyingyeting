@@ -1,0 +1,33 @@
+ul{
+	list-style: none;
+}
+/*主页面标题*/ 
+.aa{
+	color: #fff;
+}
+.header{
+	background: #1093e9;
+}
+.Title{
+	color: #fff;
+}
+.icon-xinxi{
+	color: #fff;
+}
+.mianban{
+	margin-top: 45px;
+}
+/*关于我们*/
+.about{
+	padding: 11px 0px;
+	margin-left: 16px;
+	font-size: 15px;
+	border-bottom: 1px solid #ddd;
+	color: blue;
+}
+.mui-table-view-cell{
+	font-size: 15px;
+}
+.mui-collapse-content>p{
+	padding-left: 30px;
+}

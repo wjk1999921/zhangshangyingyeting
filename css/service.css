@@ -1,0 +1,56 @@
+ul{
+	list-style: none;
+}
+/*主页面标题*/ 
+.aa{
+	color: #fff;
+}
+.header{
+	background: #1093e9;
+}
+.Title>img{
+	/*margin-top: 5px;*/
+	width: 50%;
+}
+.icon-xinxi{
+	color: #fff;
+}
+/*主要内容开始*/
+/*热点*/
+.hot{
+	margin:10px 0;
+	background: #fff;
+}
+.hot>a{
+	display: flex;
+}
+/*图标*/
+.hot>a>div:nth-child(1){
+	width: 20%;
+	padding: 5px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+.hot>a>div:nth-child(1)>img{
+	width: 30%;
+}
+/*右边文字*/
+.hotword{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding: 7px 0;
+	border-bottom: 1px solid #ddd;
+	/*background: yellow*/
+}
+.hotword>span:nth-child(1){
+	font-size: 15px;
+	color: #404040;
+}
+.hotword>span:nth-child(2){
+	padding-right: 20px;
+	font-size: 19px;
+	color: #DDDDDD;
+	/*font-weight: bold;*/
+}
+/*主要内容结束*/

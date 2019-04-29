@@ -84,11 +84,11 @@
 		        <span class="mui-icon mui-icon-home"></span>
 		        <span class="mui-tab-label">首页</span>
 		    </a>
-		    <a class="mui-tab-item">
+		    <a class="mui-tab-item" id="my">
 		        <span class="mui-icon icon-wode iconfont"></span>
 		        <span class="mui-tab-label">我的</span>
 		    </a>
-		    <a class="mui-tab-item">
+		    <a class="mui-tab-item" id="fuwu">
 		        <span class="mui-icon iconfont icon-fuwu"></span>
 		        <span class="mui-tab-label">服务</span>
 		    </a>		    
@@ -208,6 +208,21 @@
 		gallery.slider({
 		interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
 	});
+//	链接到我的
+	document.getElementById('my').addEventListener('tap',function(){
+  		mui.openWindow({
+		url: 'html/mine.html', 
+		id:'my',	
+		})
+    });
+//  链接到服务
+	document.getElementById('fuwu').addEventListener('tap',function(){
+  		mui.openWindow({
+		url: 'html/service.html', 
+		id:'fuwu',	
+		})
+     })
+
 </script>
 </body>
 
