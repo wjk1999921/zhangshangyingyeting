@@ -1,0 +1,47 @@
+/*侧滑界面里的内容*/
+.touxiang{
+	color: #fff;
+	height: 800px;
+	background-image: url("../img/cehuabeijing.png");
+}
+.cehua{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+	/*background: pink;*/
+}
+.denglu{
+	display: flex;
+	align-items: center;
+	/*background: deeppink;*/
+}
+.denglu>img{
+	display: block;
+	width: 30%;
+}
+.denglu>span:nth-child(2){
+	display: inline-block;
+	font-size: 20px;
+}
+/*-一些应用*/
+.yingyong{
+	margin-top: 35px;
+}
+.guanli{
+	margin-bottom: 15px;
+}
+/*图标*/
+.guanli>span:nth-child(1){
+	margin-right: 6%;
+	margin-left: 7%;
+	font-size: 25px;
+}
+#icon-wenjian{
+	font-size: 20px;
+}
+/*文字*/
+.guanli>span:nth-child(2){
+	font-size: 15px;
+	font-weight: bold;
+}
+/*-一些应用结束*/

@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="../css/iconfont.css" rel="stylesheet"/>
+	<link href="../css/mui.min.css" rel="stylesheet" />
+	<link href="../css/loin.css" rel="stylesheet" />
+	<script src="../js/jquery-1.11.0.js"></script>
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/loin.js"></script>
+	<script type="text/javascript">
+		mui.init()
+	</script>
+</head>
+<body>
+   <header class="mui-bar mui-bar-nav header">
+		<a class="mui-icon mui-action-menu iconfont icon-jiantou mui-pull-left " id="index"></a>
+		<button class="mui-btn mui-btn-blue mui-btn-link mui-pull-right" style="color: #fff;">注册</button>
+		<h1 class="mui-title">问题反馈</h1>
+	</header> 
+	<div class="loin">
+		<input type="text" placeholder="请输入注册手机号" id="phone" />
+		<input type="text" placeholder="请输入6位数字密码" id="mima"/>
+		<div class="code">
+			<input type="text" placeholder="请输入验证码"/>
+			<span id="yanzhengma">222</span>
+		</div>
+		<!--提示框-->
+		<div class="tips">
+		 	 <p>用户名不能为空</p>
+		</div>
+		<div class="paword">
+			<label>
+				<input type="checkbox" />
+				<span>记住密码</span>
+			</label>
+			<span>忘记密码</span>
+		</div>
+		<button type="button" id="button">完成</button>
+	</div>
+	
+<script type="text/javascript">
+		mui.init();
+		mui('.mui-scroll-wrapper').scroll();
+	
+//  返回首页
+	 
+	 document.getElementById('index').addEventListener('tap',function(){
+  		mui.openWindow({
+		url: '../index.html', 
+		id:'index',
+		})
+    })
+	</script>
+</body>
+
+</html>

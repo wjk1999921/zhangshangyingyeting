@@ -161,7 +161,10 @@
 		id:'fuwu',	
 		})
      })
-
+mui('.mui-bar-tab').on('tap','a',function(){  
+                console.log(this.getAttribute('href'));  
+                location.href = this.getAttribute('href');  
+        }) 
 </script>
 </body>
 </html>

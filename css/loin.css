@@ -1,0 +1,67 @@
+body{
+	background: #fff;
+}
+/*头部背景*/
+.header{
+	
+	background: #1093e9;
+}
+.mui-title,.icon-jiantou{
+	color: #fff;
+}
+/*里面内容*/
+.loin{
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-left: 27px;
+	/*background: #000;*/
+}
+.loin>input[type="text"]{
+	width: 90%;	
+}
+.code{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+.code>input{
+	width: 65%;
+}
+#yanzhengma{
+	display: inline-block;
+	width: 30%;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	background: #ddd;
+	margin-top: 5px;
+}
+/*记住密码*/
+.paword{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin-top: 50px;
+	color: blue;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+button[type="button"]{
+	width: 90%;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	background: #1093e9;
+}
+.tips {
+	display: none;
+  width: 30%;
+  text-align: center;
+}    
+.tips p {
+  line-height: 40px;
+  color: #FFF;
+  background-color: #E64145;
+  border-radius: 10px;
+}

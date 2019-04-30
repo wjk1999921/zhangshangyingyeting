@@ -1,81 +1,81 @@
 {
-	"index.html": {
-		"resources": [
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css",
-			"img/sharetowx_icon.png",
-			"css/index.css",
-			"html/indexson.html",
-			"img/yyt.png",
-			"css/iconfont.css",
-			"img/wxszjm.png",
-			"img/lunbo3.jpg",
-			"img/hdtc.png",
-			"img/lunbo2.jpg",
-			"img/lunbo4.jpg",
-			"img/ytj.png",
-			"img/gqjmd.png",
-			"img/ffjm.png",
-			"img/ywxx.png",
-			"img/zhxx.png",
-			"img/yqjbb.png",
-			"img/lunbo1.jpg",
-			"img/kd.png",
-			"img/yhxx.png",
-			"img/ddxx.png",
-			"img/cehuabeijing.png",
-			"html/new_file.html"
-		],
-		"refer": [
-			"html/indexson.html",
-			"html/new_file.html"
-		]
-	},
-	"html/indexson.html": {
-		"resources": [
-			"css/indexson.css",
-			"img/lunbo2.jpg",
-			"img/lunbo1.jpg",
-			"img/lunbo4.jpg",
-			"img/lunbo3.jpg",
-			"js/mui.min.js",
-			"css/mui.min.css",
-			"img/ywxx.png",
-			"img/zhxx.png",
-			"img/yhxx.png",
-			"img/ddxx.png",
-			"img/wxszjm.png",
-			"img/ffjm.png",
-			"img/gqjmd.png",
-			"img/yqjbb.png",
-			"img/hdtc.png",
-			"img/ytj.png",
-			"img/kd.png",
-			"fonts/mui.ttf",
-			"img/yyt.png",
-			"css/index.css",
-			"css/iconfont.css"
-		]
-	},
-	"html/new_file.html": {
-		"resources": [
-			"img/wxszjm.png",
-			"img/lunbo3.jpg",
-			"img/hdtc.png",
-			"img/lunbo2.jpg",
-			"img/lunbo4.jpg",
-			"img/ytj.png",
-			"css/index.css",
-			"img/ffjm.png",
-			"img/gqjmd.png",
-			"img/ywxx.png",
-			"img/zhxx.png",
-			"img/lunbo1.jpg",
-			"img/yqjbb.png",
-			"img/kd.png",
-			"img/yhxx.png",
-			"img/ddxx.png"
-		]
-	}
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "img/sharetowx_icon.png",
+      "css/index.css",
+      "html/indexson.html",
+      "img/yyt.png",
+      "css/iconfont.css",
+      "img/wxszjm.png",
+      "img/lunbo3.jpg",
+      "img/hdtc.png",
+      "img/lunbo2.jpg",
+      "img/lunbo4.jpg",
+      "img/ytj.png",
+      "img/gqjmd.png",
+      "img/ffjm.png",
+      "img/ywxx.png",
+      "img/zhxx.png",
+      "img/yqjbb.png",
+      "img/lunbo1.jpg",
+      "img/kd.png",
+      "img/yhxx.png",
+      "img/ddxx.png",
+      "img/cehuabeijing.png",
+      "html/new_file.html"
+    ],
+    "refer": [
+      "html/indexson.html",
+      "html/new_file.html"
+    ]
+  },
+  "html/indexson.html": {
+    "resources": [
+      "css/indexson.css",
+      "img/lunbo2.jpg",
+      "img/lunbo1.jpg",
+      "img/lunbo4.jpg",
+      "img/lunbo3.jpg",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "img/ywxx.png",
+      "img/zhxx.png",
+      "img/yhxx.png",
+      "img/ddxx.png",
+      "img/wxszjm.png",
+      "img/ffjm.png",
+      "img/gqjmd.png",
+      "img/yqjbb.png",
+      "img/hdtc.png",
+      "img/ytj.png",
+      "img/kd.png",
+      "fonts/mui.ttf",
+      "img/yyt.png",
+      "css/index.css",
+      "css/iconfont.css"
+    ]
+  },
+  "html/new_file.html": {
+    "resources": [
+      "img/wxszjm.png",
+      "img/lunbo3.jpg",
+      "img/hdtc.png",
+      "img/lunbo2.jpg",
+      "img/lunbo4.jpg",
+      "img/ytj.png",
+      "css/index.css",
+      "img/ffjm.png",
+      "img/gqjmd.png",
+      "img/ywxx.png",
+      "img/zhxx.png",
+      "img/lunbo1.jpg",
+      "img/yqjbb.png",
+      "img/kd.png",
+      "img/yhxx.png",
+      "img/ddxx.png"
+    ]
+  }
 }
